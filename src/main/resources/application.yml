@@ -1,0 +1,9 @@
+#spring.profiles.active=@spring.profiles.active@
+#spring.profiles.include=quueue
+
+app:
+  name: multi-profile
+spring:
+  profiles:
+    active: @spring.profiles.active@
+    include: queue
